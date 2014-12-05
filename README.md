@@ -8,7 +8,7 @@ Note: This is a work in progress, and the api is not complete.
 Install the package from npm
 
 ```
-npm install mantle-js
+npm install mantle
 ```
 
 In your project create an instance of the wrapper
