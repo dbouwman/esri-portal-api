@@ -1,4 +1,4 @@
-### mantle-js
+# mantle-js
 
 Node js wrapper to streamline communication with the ArcGIS Online / Portal api.
 
