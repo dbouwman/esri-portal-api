@@ -1,10 +1,10 @@
 {
-  "name": "mantle",
+  "name": "esri-portal-api",
   "version": "0.0.1",
   "description": "Node library for communicating with ArcGIS Online or a Portal Instance",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dbouwman/mantle-js"
+    "url": "git://github.com/dbouwman/esri-portal-api"
   },
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "Portal"
   ],
   "author": "dbouwman",
-  "license": "MIT",
+  "license": "Apache 2.0",
   "dependencies": {
     "request": "~2.47.0",
     "q": "~1.1.1"

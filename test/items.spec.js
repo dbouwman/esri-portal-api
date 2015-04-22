@@ -48,6 +48,19 @@ describe('content ', function () {
 
     });
 
+    it("get itemdata", function(done) {
+      scope = nock(prodUrl)
+              .get('/sharing/rest/content/items/123ITEMID456/data?f=json&token=sometoken')
+              .reply(200, {});
+
+      ago.content.items.data('sometoken', '123ITEMID456')
+      .then(function(selfJson){
+        scope.done();
+        done();
+      }).done();
+
+    });
+
     it("update item", function(done) { 
       var fakeItem = {
         "id":"123ITEMID456",

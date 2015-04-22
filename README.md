@@ -1,20 +1,20 @@
-# mantle-js
+# esri-portal-api
 
-Node js wrapper to streamline communication with the ArcGIS Online / Portal api.
+Node js wrapper to streamline communication with the ArcGIS Online / Portal API.
 
-Note: This is a work in progress, and the api is not complete.
+Note: This is a work in progress, and does not wrap the entire Portal API.
 
 ## Getting started
 Install the package from npm
 
 ```
-npm install mantle
+npm install esri-portal-api
 ```
 
 In your project create an instance of the wrapper
 
 ```
-var AGO = require('mantle');
+var AGO = require('esri-portal-api');
 
 var ago = new AGO();
 //use the wrapper
