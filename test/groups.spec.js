@@ -46,5 +46,20 @@ describe('community ', function () {
       }).done();
     });  
 
+    it("invite to group", function(done) {
+      var fakeGroup = {
+        "id": "123GROUPID456"
+      };
+      scope = nock(prodUrl)
+              .post('/sharing/rest/community/groups/123GROUPID456/invite?f=json&users=someuser&token=sometoken', fakeGroup)
+              .reply(200, fakeGroup);
+
+      ago.community.groups.invite('sometoken', fakeGroup.id, 'someuser')
+      .then(function(selfJson){
+        scope.done();
+        done();
+      }).done();
+    });
+
   });//groups
 });//community
