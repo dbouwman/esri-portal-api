@@ -1,3 +1,5 @@
+# DEPRECATED - PLEASE USE THE [@esri/arcgis-rest-js](https://github.com/esri/arcgis-rest-js) library.
+
 # esri-portal-api
 
 Node js wrapper to streamline communication with the ArcGIS Online / Portal API.
