@@ -1,7 +1,7 @@
 {
   "name": "esri-portal-api",
-  "version": "0.0.1",
-  "description": "Node library for communicating with ArcGIS Online or a Portal Instance",
+  "version": "0.0.2",
+  "description": "DEPRECATED: Use @esri/arcgis-rest-js",
   "repository": {
     "type": "git",
     "url": "git://github.com/dbouwman/esri-portal-api"
